@@ -29,7 +29,7 @@
       "name": "ReadName",
       "description": "Example script to read a name from user input",
       "code": [
-        "echo \"Enter your name:\"",
+        "echo \"Enter your name or your number:\"",
         "read name"
       ]
     },
