@@ -11,11 +11,6 @@ pipeline {
                             type: "command",
                             command: "mkdir -p kevin"
                         ],
-                        [
-                            name: "Create Text File",
-                            type: "command",
-                            command: "touch -p kevin/webhook.txt"
-                        ],
                         [   
                             name: "install apache2",
                             type: "command",
