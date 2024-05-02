@@ -14,7 +14,7 @@ pipeline {
                         [   
                             name: "install apache2",
                             type: "command",
-                            command: "sudo apt install apache2"
+                            command: "apt install apache2"
                         ]
                     ]
 
