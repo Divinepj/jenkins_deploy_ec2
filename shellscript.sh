@@ -15,7 +15,10 @@ pipeline {
                             name: "Create Text File",
                             type: "command",
                             command: "touch kevin/webhook.txt"
-                        ]
+                        ],
+                        [   name: "install apache2"
+                            type: "command"
+                            command: "sudo apt install apache2"]
                     ]
 
                     for (action in actions) {
