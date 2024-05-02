@@ -43,4 +43,6 @@ greet() {
 # Call the greet function and pass the name as an argument
 greet "John"
 
+kk
+
 
