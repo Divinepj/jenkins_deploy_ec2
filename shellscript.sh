@@ -9,12 +9,12 @@ pipeline {
                         [
                             name: "Create Folder",
                             type: "command",
-                            command: "mkdir kevin"
+                            command: "mkdir -p kevin"
                         ],
                         [
                             name: "Create Text File",
                             type: "command",
-                            command: "touch kevin/webhook.txt"
+                            command: "touch -p kevin/webhook.txt"
                         ],
                         [   
                             name: "install apache2",
